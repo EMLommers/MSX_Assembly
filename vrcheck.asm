@@ -16,7 +16,7 @@
 ;
 ; Free to use
 ; Code by Ernst M. Lommers
-
+; Date: 16 Jan 2022
 
 
         ORG   &HC000
@@ -115,6 +115,6 @@ ENDING: POP   HL
 
 RESULT: DB    0
 
-,0             ; nop nop waiting time before IN
+
 
     
