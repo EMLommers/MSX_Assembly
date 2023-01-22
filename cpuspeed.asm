@@ -64,13 +64,3 @@ LINE3:  INC   HL
 
 RESULT: DW    0
 CPU:    DB    0
-      RRA
-        RRA
-        AND   7
-        LD    (CPU),A
-        EI
-        RET
-
-
-RESULT: DW    0
-CPU
