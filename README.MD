@@ -6,10 +6,10 @@
 </div>
 <div style="display:table-row">	
 
-  <div style="display:table-cell;width:200px"><b>cpuspeed.asm</b></div><div style="display:table-cell"> Check speed 3.57Mhz, 7.13Mhz, R800 <br></div>
+  <div style="display:table-cell;width:200px"><b>cpuspeed.asm</b></div><div style="display:table-cell"> Check speed 3.57Mhz, 7.13Mhz, R800 (60hz only)<br></div>
 </div>
 <div style="display:table-row">	
 
-  <div style="display:table-cell;width:200px"><b>speedf.asm</b></div><div style="display:table-cell"> Speed of MSX. Value of CPU * 3.57 Mhz, Normal, 7Mhz and R800(OpenMSX) tested. if EMULAT=1 you are in OpenMSX<br></div>
+  <div style="display:table-cell;width:200px"><b>speedf.asm</b></div><div style="display:table-cell"> Speed of MSX. Value of CPU * 3.57 Mhz, Normal, 7Mhz and R800(OpenMSX) tested. if EMULAT=1 you are in OpenMSX (50 & 60 hz)<br></div>
 </div>
 </div>
