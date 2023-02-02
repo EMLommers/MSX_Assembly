@@ -21,7 +21,7 @@
   Build at &HC000, xcution at same address ..<br>
 
 CPU = &HC092 -> Result R Only <br>
-EMULAT = &HC08E -> Result R only <br>
+EMULAT = &HC08E -> DOESNT WORK YET
 TURBO = &HC08F -> Variable 0,1,2 R800, 0= Z80, 1&2 = R800, W only, used when xcution<br>
 RESULT = &HC090 + 1 -> real result, CPU and EMULAT are based on this result, R only<br>
 VDP = &HC07A -> routine to toggle 50/60 hz, X only <br>
@@ -29,5 +29,19 @@ VDP = &HC07A -> routine to toggle 50/60 hz, X only <br>
   
   </div>
 </div>
+<div style="display:table-row">	
 
+  <div style="display:table-cell;width:200px"><b>speedf.bin</b></div><div style="display:table-cell"> Build of speedf.asm<br>
+  
+  
+  Build at &HC000, xcution at same address ..<br>
+
+CPU = &HC092 -> Result R Only <br>
+EMULAT = &HC08E -> DOESNT WORK YET
+TURBO = &HC08F -> Variable 0,1,2 R800, 0= Z80, 1&2 = R800, W only, used when xcution<br>
+RESULT = &HC090 + 1 -> real result, CPU and EMULAT are based on this result, R only<br>
+VDP = &HC07A -> routine to toggle 50/60 hz, X only <br>
+  
+  
+  </div>
 </div>
