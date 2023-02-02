@@ -21,7 +21,7 @@
   Build at &HC000, xcution at same address ..<br>
 
 CPU = &HC092 -> Result R Only <br>
-EMULAT = &HC08E -> DOESNT WORK YET
+EMULAT = &HC08E -> DOESNT WORK YET<br>
 TURBO = &HC08F -> Variable 0,1,2 R800, 0= Z80, 1&2 = R800, W only, used when xcution<br>
 RESULT = &HC090 + 1 -> real result, CPU and EMULAT are based on this result, R only<br>
 VDP = &HC07A -> routine to toggle 50/60 hz, X only <br>
@@ -35,12 +35,21 @@ VDP = &HC07A -> routine to toggle 50/60 hz, X only <br>
   
   
   Build at &HC000, xcution at same address ..<br>
-
-CPU = &HC092 -> Result R Only <br>
-EMULAT = &HC08E -> DOESNT WORK YET
-TURBO = &HC08F -> Variable 0,1,2 R800, 0= Z80, 1&2 = R800, W only, used when xcution<br>
-RESULT = &HC090 + 1 -> real result, CPU and EMULAT are based on this result, R only<br>
-VDP = &HC07A -> routine to toggle 50/60 hz, X only <br>
+NTSC= &hC082: 0/2/128/130, W only <br>
+TURBO = &HC084 -> Variable 0,1,2 R800, 0= Z80, 1&2 = R800, W only, used when xcution<br>
+RESULT = &HC085 + 1 -> real result, CPU and EMULAT are based on this result, R only<br>
+VDP = &HC06F -> routine to toggle 50/60 hz, X only <br>
+<br>
+ USAGE: <br>
+  10 bload "speedf2.bin"<br>
+  20 defusr=&hc000:a=usr(0)<br>
+  30 print peek(&hc085)<br>
+  30 goto 20<br>
+  <br>
+  CTRL-STOP to break<br>
+  You should see multiple variables on real machine and stable on emulator<b>
+  
+  
   
   
   </div>
