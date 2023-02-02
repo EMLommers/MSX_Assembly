@@ -31,7 +31,7 @@ VDP = &HC07A -> routine to toggle 50/60 hz, X only <br>
 </div>
 <div style="display:table-row">	
 
-  <div style="display:table-cell;width:200px"><b>speedf.bin</b></div><div style="display:table-cell"> Build of speedf.asm<br>
+  <div style="display:table-cell;width:200px"><b>speedf2.bin</b></div><div style="display:table-cell"> Build of speedf2.asm<br>
   
   
   Build at &HC000, xcution at same address ..<br>
