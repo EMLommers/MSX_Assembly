@@ -163,7 +163,7 @@ JUMPLP: DJNZ  RFLOOP
         SUB   H
         AND   &B00001111
         CP    10
-        RET   NC
+        RET   C
         LD    A,1
         LD    (EMULAT),A
 
