@@ -161,7 +161,7 @@ JUMPLP: DJNZ  RFLOOP
         LD    H,A
         LD    A,(DE)
         SUB   H
-        AND   &B00001111
+;        AND   &B00001111
         CP    10
         RET   C
         LD    A,1
